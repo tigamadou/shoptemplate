@@ -1,5 +1,5 @@
 <!-- PROJECT LOGO -->
-![Screenshot Image](images/hd-screenshot.webp)
+![Screenshot Image](images/hd-screeshot.webp)
 <br />
 <p align="center">
    <h3 align="center">Shop Website Template</h3>
@@ -9,7 +9,7 @@
     <br />    
     <br />
     ·
-     <a href="https://rawcdn.githack.com/genzaraki/nwclone/7d727c7895c352a9f428d34b6976cff62d943c8e/index.html">View Demo</a>
+     <a href="https://rawcdn.githack.com/genzaraki/shoptemplate/6ff5415103285931859cb2c3c9888d6b305fe753/index.html">View Demo</a>
     ·  
   </p>
 </p>
