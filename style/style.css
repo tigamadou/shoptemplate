@@ -96,6 +96,9 @@ a,a:hover{
 .item-list .item-cover img{
     max-width: 350px;
 }
+.images-block img{
+    height: 150px;
+}
 .scaleOnHover:hover img{
     transition: all 0.25s ease-in-out;
     transition-delay: 0.2s;
