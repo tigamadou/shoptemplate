@@ -1,11 +1,11 @@
 <!-- PROJECT LOGO -->
-![Screenshot Image](images/screen-shot.png)
+![Screenshot Image](images/hd-screenshot.png)
 <br />
 <p align="center">
-   <h3 align="center">The NEWSWEEK home page</h3>
+   <h3 align="center">Shop Website Template</h3>
 
   <p align="center">
-    A simple clone page of The NEWSWEEK home page.
+    
     <br />    
     <br />
     ·
@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  This project is part of the Microverse Project and is done  according to the required specifications.  
+  I've build this project according to a design and specifications received.  
 
 
 ### Build With
