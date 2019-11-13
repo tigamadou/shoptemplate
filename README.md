@@ -1,5 +1,5 @@
 <!-- PROJECT LOGO -->
-![Screenshot Image](images/hd-screeshot.webp)
+![Screenshot Image](images/home.webp)
 <br />
 <p align="center">
    <h3 align="center">Shop Website Template</h3>
@@ -36,14 +36,19 @@
 * [Html]()
 * [CSS]()
 * [VSCODE]()
+* [Adobe Xd]()
+* [Adobe PhotoShop]()
 
 ### ScreenSHots
+#### Home Page
 ![Screenshot Image](images/home.webp)
 <br/>
 
+#### Category Page
 ![Screenshot Image](images/category.webp)
 <br/>
 
+#### Product Page
 ![Screenshot Image](images/product.webp)
 <br/>
 
