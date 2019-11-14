@@ -6,6 +6,7 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   height: 100%;
+  color: #313131;
 }
 
 * {
@@ -182,7 +183,7 @@ a:hover {
 }
 
 .item-list .item-cover img {
-  max-width: 350px;
+  //max-width: 350px;
 }
 
 .scaleOnHover:hover img {
@@ -209,7 +210,7 @@ a:hover {
   left: 0;
   bottom: 0;
   right: 0;
-  color: #b9b9b9;
+  color: #313131;
   z-index: 0;
 }
 
@@ -217,6 +218,20 @@ a:hover {
   color: #b9b9b9;
 }
 
+.asides{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item-list-elemet {
+    
+  padding: 0.25rem;
+}
 /** Mobile Design **/
 @media screen and (max-width: 767px) {
   body {
@@ -227,7 +242,16 @@ a:hover {
     width: 100%;
     max-width: auto;
   }
-
+  .main-content{
+    display: block;
+    
+  }
+  .main-col-left{
+    width: 100%;
+  }
+  .main-col-right{
+    width: 100%;
+  }
   .cart-1 {
     height: auto;
     background: #f5f5f5;
@@ -238,10 +262,28 @@ a:hover {
     height: 20vh;
     padding: 15px;
   }
+  .item-list {
+    display: block;
+   
+  }
+  
 }
 
 /** Tablet Design **/
 @media screen and (min-width: 768px) {
+  body {
+    padding-top: 65px;
+  }
+  .main-content{
+    display: block;
+    
+  }
+  .main-col-left{
+    width: 100%;
+  }
+  .main-col-right{
+    width: 100%;
+  }
   .cart-1 {
     height: 100vh;
     background: #f5f5f5;
@@ -255,10 +297,28 @@ a:hover {
     bottom: 0;
     right: 0;
   }
+
+  
+  .item-list-elemet {
+    width: 50%;
+  }
 }
 
 /** Desktop Design **/
 @media screen and (min-width: 1024px) {
+  body {
+    padding-top: 0px;
+  }
+  .main-content{
+    display: flex;
+    flex-grow: 1;
+  }
+  .main-col-left{
+    width: 50%;
+  }
+  .main-col-right{
+    width: 50%;
+  }
   .asides {
     width: 20%;
     max-width: 200px;
@@ -321,6 +381,11 @@ a:hover {
   .navbrand {
     box-shadow: none;
     position: relative;
+  }
+
+ 
+  .item-list-elemet {
+    width: 33.333%;
   }
 }
 

@@ -12,26 +12,26 @@
 </head>
 <body>
     
-    <main class="container-fluid ">
-        <div class="d-lg-flex fle-direction-md-column justify-content-between">
-            <div class="menu-bar asides d-flex flex-column p-lg-4">
+    <div class="container-fluid d-lg-flex flex-direction-md-column justify-content-between">
+      
+            <header class="menu-bar asides p-lg-4">
                 <div class="navbrand mb-md-5 font-weight-bold d-flex justify-content-between align-items-center p-3 p-lg-0">
                    <a href="index.html"> Axel ARIGATO</a>
                    <span class="d-block d-lg-none"><span class="oi oi-menu"></span></span>
                 </div>
                 <div class="d-none d-lg-flex flex-md-column flex-grow-1 justify-content-between mt-5">
 
-                    <ul class="nav categories-menu flex-column font-weight-bold">
-                        <li class="mb-3">
+                    <nav class="nav categories-menu flex-column font-weight-bold">
+                        <div class="mb-3">
                             <a href="category.html" >Smart Phones</a>
-                        </li>
-                        <li class="mb-3">
+                        </div>
+                        <div class="mb-3">
                             <a href="category.html">Laptops</a>
-                        </li>
-                        <li >
+                        </div>
+                        <div >
                             <a href="category.html">Others</a>
-                        </li>
-                    </ul>
+                        </div>
+                    </nav>
                     <div class="mt-n5">
     
                         <a href="#" class="menu-button d-flex font-weight-bold">
@@ -54,35 +54,33 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="main-content flex-grow-1  ">
-               <div class="row m-0">
-                   <div class="col-12 col-lg-6 p-0">
-                       <div class="p-1">
+            </header>
+            <main class="main-content flex-grow-1  ">
+                <div class="main-col-left p-0">
+                    <div class="p-1">
 
-                           <div class="  scaleOnHover cart-1 d-flex justify-content-center align-items-center p-5">
-                                <img src="images/big-4.webp" alt="" class="img-fluid">
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-12 col-lg-6 p-0 position-static">
-                       <div class="p-1">
+                        <div class="  scaleOnHover cart-1 d-flex justify-content-center align-items-center p-5">
+                             <img src="images/big-4.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="main-col-right p-0 position-static">
+                    <div class="p-1">
 
-                           <div class="picture-card  cart-2  scaleOnHover justify-content-center align-items-center d-none d-lg-flex">
-                                <img src="images/big-2.webp" alt="">
-                           </div>
-                           <div class="picture-card  cart-3 bg-white p-lg-5 p-md-3 d-flex flex-column justify-content-between">
-                                <h2 class=" collection-name">
-                                    <a href="#">Apple iPhone 11  <br>Pro Max</a>
-                                </h2>
-    
-                                <a href="product.html" class="font-weight-bold">Shop Now</a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-            </div>
-            <div class="asides p-4 d-none d-lg-block">
+                        <div class="picture-card  cart-2  scaleOnHover justify-content-center align-items-center d-none d-lg-flex">
+                             <img src="images/big-2.webp" alt="">
+                        </div>
+                        <div class="picture-card  cart-3 bg-white p-lg-5 p-md-3 d-flex flex-column justify-content-between">
+                             <h1 class=" collection-name">
+                                 <a href="#">Apple iPhone 11  <br>Pro Max</a>
+                             </h1>
+ 
+                             <a href="product.html" class="font-weight-bold">Shop Now</a>
+                        </div>
+                    </div>
+                </div>               
+            </main>
+            <asides class="asides p-4 d-none  d-lg-block">
                 <ul class="nav d-block">
                     <li class="mb-4">
                         <a href="#" class="d-flex justify-content-end  align-items-center">
@@ -105,12 +103,10 @@
                  <div class="scoll-down">
                     <a href="#">Scroll Down</a>
                 </div>
-            </div>
-        </div>
+            </asides>
+       
         
-    </main>
-    <footer>
-
-    </footer>
+    </div>
+   
 </body>
 </html>
