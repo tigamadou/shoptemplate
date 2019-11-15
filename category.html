@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <link href="style/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <title>Category</title>
 </head>
@@ -17,7 +18,13 @@
             <div class="navbrand  font-weight-bold">
                 
                 <a href="index.html"> ElectroNikz</a>
-                <span class="d-block d-lg-none mobmenu-toggler"><span class="oi oi-menu"></span></span>
+                <a href="#" class="menu-button  font-weight-bold align-items-center hide-desktop">
+                <div class="hamburger hamburger--collapse ">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class=" navcontent flex-md-column flex-grow-1 justify-content-between mt-5">
 
@@ -37,8 +44,12 @@
                 </nav>
                 <div class="mt-n5">
 
-                    <a href="#" class="menu-button d-flex font-weight-bold">
-                        <span class="mr-4"><span class="oi oi-menu"></span></span>
+                    <a href="#" class="menu-button d-flex font-weight-bold align-items-center">
+                            <div class="hamburger hamburger--collapse mr-4">
+                                    <div class="hamburger-box">
+                                        <div class="hamburger-inner"></div>
+                                    </div>
+                                </div>
                         <span>Menu</span>
                     </a>
                 </div>
@@ -59,6 +70,98 @@
             </div>
         </header>
         <div class="main-content flex-grow-1  ">
+            <div class="pop-menu" tabindex="-1">
+                <div class="pop-menu-container">
+
+                    <div class="pop-top mb-1">
+                        <div class="menuform p-4">
+                            <input type="text" class="input d-block" placeholder="Search">
+                        </div>
+                        <div class="menuform-cover-1">
+                            
+                        </div>
+                    </div>
+                    <div class="pop-middle mb-1">
+                        <ul class="links ">
+                            <li class="pmidle-links title font-weight-bold mb-4">
+                                <a href="category.html">SHOP</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="category.html">Smartphones</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="category.html">Laptops</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="category.html">Desktops</a>
+                            </li>
+                        </ul>
+                        <ul class="links ">
+                            <li class="pmidle-links title font-weight-bold mb-4">
+                                <a href="#">COMPANY</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Our Story</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Careers</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Provacy & Cookies</a>
+                            </li>
+                        </ul>
+                        <ul class="links ">
+                            <li class="pmidle-links title font-weight-bold mb-4">
+                                <a href="#">SUPPORT</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Assistance</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Shipping Information</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Returns</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="links ">
+                            <li class="pmidle-links title font-weight-bold mb-4">
+                                <a href="#">STORES</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">London</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Stockholm</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Harvey Nicols</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Gothenburg</a>
+                            </li>
+                            <li class="pmidle-links mb-2">
+                                <a href="#">Copenhagen</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pop-bottom ">
+                        <div class="menuform-cover-2">
+    
+                        </div>
+                        <div class="menuform p-4">
+                            <input type="text" class="input d-block" placeholder="Subscribe To Our Newsletter">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
             <div>
                     <h1 class="mb-3 page-title p-1 text-center text-lg-left  mt-lg-0">Category</h1>
 
@@ -202,7 +305,7 @@
                     </ul>
             </div>
         </div>
-        <asides class="asides navcontent p-4 d-none  ">
+        <asides class="asides navcontent p-4 d-none  d-lg-block">
             <ul class="nav d-block">
                 <li class="mb-4">
                     <a href="#" class="d-flex justify-content-end  align-items-center">
@@ -229,39 +332,10 @@
         
         
     </main>
-    <div class="mobmenu">
-            <div class="mobmenu-header">
-                
-                <span>ElectroNikz</span>
-                <a href="#" class=" d-flex font-weight-bold close mobmenu-toggler">
-                    <span class="oi oi-chevron-right"></span>
-                </a>
-            </div>
-            <nav class="nav categories-menu flex-column font-weight-bold flex-grow-1">
-                <div class="mb-3">
-                    <a href="index.html" >Home</a>
-                </div>
-                <div class="mb-3">
-                    <a href="category.html" >Smart Phones</a>
-                </div>
-                <div class="mb-3">
-                    <a href="category.html">Laptops</a>
-                </div>
-                <div >
-                    <a href="category.html">Others</a>
-                </div>
-            </nav>
-        </div>
+   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-        $(function(){
-            $('.mobmenu-toggler').click(function(){
-            $( ".mobmenu" ).toggleClass( "show");
-            
-            })
-        })
-    </script>
+    <script src="js/app.js"></script>
 </body>
 </html>
