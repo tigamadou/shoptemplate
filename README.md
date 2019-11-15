@@ -104,4 +104,7 @@ The goal of the Capstone porjects is to realise a real-world-like project with g
 
 ## Contributing
 
-Thank you for considering contributing to this Project! .
+Thank you for considering contributing to this Project. Please read the following guidelines <a href="https://github.com/MarcDiethelm/contributing/blob/master/README.md">here</a> for more details. 
+
+### Tests
+* stickler-ci 
