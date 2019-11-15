@@ -9,7 +9,7 @@
     <br />    
     <br />
     ·
-     <a href="https://rawcdn.githack.com/genzaraki/shoptemplate/3f77e8fe8af281ece955502492a7d45718c25117/index.html">View Demo</a>
+     <a href="https://rawcdn.githack.com/genzaraki/shoptemplate/c3a12d5c081d2b240f7ff6834a62bf97efebc885/index.html" target="_blank">View Demo</a>
     ·  
   </p>
 </p>
@@ -93,7 +93,7 @@ The goal of the Capstone porjects is to realise a real-world-like project with g
 ### Contact
 * Amadou - [@tigamadou](https://twitter.com/tigamadou) - [LinkedIn](https://www.linkedin.com/in/amadou-ibrahim-75769167) - [GitHub](https://github.com/genzaraki)
 
-* Project Link [https://github.com/genzaraki/nwclone](https://github.com/genzaraki/nwclone)
+* Project Link [https://github.com/genzaraki/shoptemplate](https://github.com/genzaraki/shoptemplate)
 
 ### Acknowledgements
 
