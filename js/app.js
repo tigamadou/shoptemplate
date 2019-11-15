@@ -1,6 +1,13 @@
 $(function(){ 
     $('.menu-button').click(function(){
         $(this).find('.hamburger').toggleClass('is-active');
-        $('.pop-menu').toggleClass('is-active');
+        $('.popmenu-container').toggleClass('is-active').promise().done(function(){
+            if(!$('.popmenu-container').hasClass('is-active')){
+                $('.popmenu-container').css('position','fixed');
+            }else{
+                $('.popmenu-container').css('position','absolute');
+            }
+            $('.pop-menu').toggleClass('is-active');
+       });
     });
 });
