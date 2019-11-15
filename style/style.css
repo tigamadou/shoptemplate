@@ -16,7 +16,47 @@ body {
   list-style: none;
   padding: 0;
 }
-
+.main-content{
+  position: relative;
+}
+.pop-menu{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  
+  z-index: 1;
+}
+.pop-top{
+  height: 20vh;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.searform{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background: #f5f5f5;
+  width: 50%;
+  height: 100%;
+}
+.serachform-cover{
+  width: 50%;
+  height: 100%;
+  background-image: url('../images/category.webp');
+  background-size: contain;
+}
+.pop-middle{
+  height: 60vh;
+  background: #f5f5f5;
+}
+.pop-bottom{
+  height: 20vh;
+  background: #f5f5f5;
+}
 .row {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -126,14 +166,22 @@ a:hover {
   left: 0;
   right: 0;
   z-index: 9;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .page-title {
   font-size: 24px;
 }
+.images-block{
+  display: flex;
+}
 
 .images-block img {
   height: 150px;
+  
 }
 
 .product .images img {
@@ -232,12 +280,26 @@ a:hover {
     
   padding: 0.25rem;
 }
+
+.navcontent{
+  display: none;
+}
+.product{
+  display: flex;
+}
+.show-desktop{
+  display: none;
+}
+
 /** Mobile Design **/
 @media screen and (max-width: 767px) {
   body {
     padding-top: 65px;
   }
-
+  
+  .product{
+    flex-direction: column;
+  }
   .asides {
     width: 100%;
     max-width: auto;
@@ -266,13 +328,105 @@ a:hover {
     display: block;
    
   }
+  .item{
+    height: 80vh;
+  }
+  .images-block{
+    display: block;
+    order: 1;
+  }
+  .details-block{
+    order: 0;
+    display: flex;
+    flex-direction: column;
+  }
   
+  .details-block-top{
+    
+    display: flex;    
+    flex-direction: column;
+  }
+  .block-top-1{
+    order: 1;
+  }
+  .block-top-2{
+    order: 0;
+  }
+  .images-block{
+    display: none;
+  }
+}
+.mobmenu{
+  position: fixed;  
+  right: 0px;
+  min-width: 100%;
+  box-shadow: -25px 0px 10px rgba(149,149,149,0.4);
+  bottom: 0px;
+  top: 0px;
+  background: #fff;
+  z-index: 999999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+
+}
+.mobmenu-header{
+ width: 100%;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 5px 5px -5px #f5f5f5;
+  margin-bottom: 2rem;
+}
+.mobmenu-header .close{
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  color: #313131;
+}
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+
+.mobmenu.show{
+  display: flex;
+  animation-name: slideInRight;
+  animation-duration: 0.25s;
 }
 
 /** Tablet Design **/
 @media screen and (min-width: 768px) {
+  
   body {
     padding-top: 65px;
+  }
+  .product{
+    flex-direction: row;
   }
   .main-content{
     display: block;
@@ -297,17 +451,52 @@ a:hover {
     bottom: 0;
     right: 0;
   }
-
   
   .item-list-elemet {
     width: 50%;
   }
+  .images-block{
+    display: block;
+    width: 100%;
+    order: 0;
+  }
+  .images-block-element {
+    width: 100%;
+  }
+  .details-block{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .details-block-top{
+    
+    display: flex;    
+    flex-direction: column;
+  }
+  .block-top-1{
+    order: 1;
+  }
+  .block-top-2{
+    order: 0;
+  }
+  
 }
 
 /** Desktop Design **/
 @media screen and (min-width: 1024px) {
   body {
     padding-top: 0px;
+  }
+  .product{
+    flex-direction: column;
+  }
+  .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .navcontent{
+    display: flex;
   }
   .main-content{
     display: flex;
@@ -381,11 +570,46 @@ a:hover {
   .navbrand {
     box-shadow: none;
     position: relative;
+    padding: 0px;
   }
 
- 
   .item-list-elemet {
     width: 33.333%;
+  }
+  .images-block{
+    display: flex;
+    order:0;
+  }
+
+  .images-block-element {
+    width: 25%;
+  }
+  .details-block{
+    order: 1;
+    
+  }
+  .details-block-top,.details-block-bottom{
+    
+    display: flex;    
+    flex-direction: row;
+  }
+  .block-top-1{
+    order: 0;
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+  }
+  .block-top-2{
+    order: 1;
+    width: 66.66666%;
+  }
+  
+  .prod-nav{
+    display: block;
+    justify-content: space-between;
+  }
+  .show-desktop{
+    display: block;
   }
 }
 

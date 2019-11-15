@@ -12,15 +12,19 @@
 </head>
 <body>
     
-    <main class="container-fluid d-lg-flex flex-direction-md-column justify-content-between ">
+    <main class="container-fluid">
         <header class="menu-bar asides p-lg-4">
-            <div class="navbrand mb-md-5 font-weight-bold d-flex justify-content-between align-items-center p-3 p-lg-0">
-                <a href="index.html"> Axel ARIGATO</a>
-                <span class="d-block d-lg-none"><span class="oi oi-menu"></span></span>
+            <div class="navbrand  font-weight-bold">
+                
+                <a href="index.html"> ElectroNikz</a>
+                <span class="d-block d-lg-none mobmenu-toggler"><span class="oi oi-menu"></span></span>
             </div>
-            <div class="d-none d-lg-flex flex-md-column flex-grow-1 justify-content-between mt-5">
+            <div class=" navcontent flex-md-column flex-grow-1 justify-content-between mt-5">
 
                 <nav class="nav categories-menu flex-column font-weight-bold">
+                    <div class="mb-3">
+                        <a href="index.html" >Home</a>
+                    </div>
                     <div class="mb-3">
                         <a href="category.html" >Smart Phones</a>
                     </div>
@@ -198,7 +202,7 @@
                     </ul>
             </div>
         </div>
-        <asides class="asides p-4 d-none  d-lg-block">
+        <asides class="asides navcontent p-4 d-none  ">
             <ul class="nav d-block">
                 <li class="mb-4">
                     <a href="#" class="d-flex justify-content-end  align-items-center">
@@ -225,8 +229,39 @@
         
         
     </main>
-    <footer>
-
-    </footer>
+    <div class="mobmenu">
+            <div class="mobmenu-header">
+                
+                <span>ElectroNikz</span>
+                <a href="#" class=" d-flex font-weight-bold close mobmenu-toggler">
+                    <span class="oi oi-chevron-right"></span>
+                </a>
+            </div>
+            <nav class="nav categories-menu flex-column font-weight-bold flex-grow-1">
+                <div class="mb-3">
+                    <a href="index.html" >Home</a>
+                </div>
+                <div class="mb-3">
+                    <a href="category.html" >Smart Phones</a>
+                </div>
+                <div class="mb-3">
+                    <a href="category.html">Laptops</a>
+                </div>
+                <div >
+                    <a href="category.html">Others</a>
+                </div>
+            </nav>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('.mobmenu-toggler').click(function(){
+            $( ".mobmenu" ).toggleClass( "show");
+            
+            })
+        })
+    </script>
 </body>
 </html>
