@@ -9,7 +9,7 @@
     <br />    
     <br />
     ·
-     <a href="https://rawcdn.githack.com/genzaraki/shoptemplate/6ff5415103285931859cb2c3c9888d6b305fe753/index.html">View Demo</a>
+     <a href="https://rawcdn.githack.com/genzaraki/shoptemplate/3f77e8fe8af281ece955502492a7d45718c25117/index.html">View Demo</a>
     ·  
   </p>
 </p>
