@@ -55,6 +55,19 @@ The goal of the Capstone porjects is to realise a real-world-like project with g
   * layout: composition and space between elements, for the 3 given screen sizes
 * Submit a Presentation video
 
+### Project Requirements
+- Use semantic HTML tags.
+- Use CSS selectors correctly.
+- Use HTML elements box model (margin, padding, width, height).
+- Use industry-standard tools (flexbox) to place elements in the page.
+- Ability to create UIs adaptable to different screen sizes using mediaqueries.
+- Apply front-end best practices.
+- Ability to create UIs adjusted to given designs.
+- Strong English written and verbal communication.
+- Ability to communicate information effectively to technical and non-technical people.
+- Ability to translate business requirements into software solutions.
+- Ability to work well in a fast-paced environment under deadlines.
+- Ability to perform tasks and complete projects with minimal supervision.
 
 ### Build With
 
@@ -88,3 +101,7 @@ The goal of the Capstone porjects is to realise a real-world-like project with g
 * [VSCODE]()
 * [StyleLint]()
 * [Stickler]()
+
+## Contributing
+
+Thank you for considering contributing to this Project! .
