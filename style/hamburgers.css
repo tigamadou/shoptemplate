@@ -92,15 +92,6 @@
   position: relative;
 }
 
-
-
-
-
-
-/*
-   * Collapse
-   */
-
 .hamburger--collapse.is-active .hamburger-inner {
   transform: translate3d(0, -6px, 0) rotate(-45deg);
   transition-delay: 0.22s;
