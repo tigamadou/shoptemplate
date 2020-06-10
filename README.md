@@ -34,7 +34,7 @@
   This Project is my Html/Css project for Capstone projects by Microverse. The pages built are for an online electronics shop and the users will be able to browse the products by category and also see the product details page. 
   
 ### Project Details
-The goal of the Capstone porjects is to realise a real-world-like project with given specifications so that we'll get used to real life work conditions. Thus, at the end of the Html/Css courses in Microverse Program, I'm realising this project with all the skills learned. This project is being reviewed to let help us  achieve mastery of the fields, but also to improve it. Find all the specification and requirements listed bellow.
+The goal of the Capstone project is to realise a real-world-like project with given specifications so that we'll get used to real life work conditions. Thus, at the end of the Html/Css courses in Microverse Program, I'm realising this project with all the skills learned. This project is being reviewed to let help us  achieve mastery of the fields, but also to improve it. Find all the specification and requirements listed bellow.
 
 ### Project Specifications
 * The Capstone  HTML & CSS project is based on an online shop for sneakers.
