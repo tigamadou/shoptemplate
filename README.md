@@ -5,7 +5,7 @@
    <h3 align="center">ElectroShop</h3>
 
   <p align="center">
-    Smooth and lightweight Electronics Consumer  Goods Shop.
+    Smooth and lightweight Electronics Consumer  Goods Shop. Build with Html, Css and Javascript.
     <br />    
     <br />
     ·
